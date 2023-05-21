@@ -3,4 +3,4 @@
 x = int(input())
 firstelementindex = numlist.index(x)
 newlist = tuple(numlist[firstelementindex:(numlist.index(x, firstelementindex+1))+1])
-print(newlist)~
+print(newlist)~ 
